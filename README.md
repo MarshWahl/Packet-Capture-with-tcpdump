@@ -43,12 +43,12 @@ This will return output such as the following:
 
 In this scenario, I will generate some HTTP traffic for it to capture using the command "curl opensource.google.com"
 
-This will output such as the following:
+This will return output such as the following:
 ![image](https://github.com/user-attachments/assets/e57f7bd9-6df4-4f80-8191-580fce6a0113)
 
 And using the command "ls -l capture.pcap" to verify that the packet has been captured.
 
-This will output such as the following:
+This will return output such as the following:
 ![image](https://github.com/user-attachments/assets/4921f9e9-28a4-44ca-8a7b-137c1f050882)
 
 ## Filter the captured packet data
@@ -58,7 +58,7 @@ This command will run tcpdump with the following options:
 **-r**: Read capture data from the named file.
 **-v**: Display detailed packet data.
 
-This will output such as the following:
+This will return output such as the following:
 ![image](https://github.com/user-attachments/assets/e2afcc7c-9509-4299-87d9-55f1c6d0a246)
 
 As with the **Inspect the network traffic of a network interface with tcpdump** secion, you can see the IP packet information along with information about the data that the packet contains.
@@ -69,5 +69,5 @@ This command will run tcpdump with the following options:
 **-r**: Read capture data from the named file.
 **-X**: Display the hexadecimal and ASCII output format packet data. Security analysts can analyze hexadecimal and ASCII output to detect patterns or anomalies during malware analysis or forensic analysis.
 
-This will output such as the following:
+This will return output such as the following:
 ![image](https://github.com/user-attachments/assets/56249d8c-160f-4873-bf3a-2bd796c444f2)
